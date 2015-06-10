@@ -8,9 +8,26 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        
-        
-        
-        
+        <Button x:Name="zero" Content="0" Width="100" Height="100" Margin="42,627,0,41" FontSize="26.667" Click="zero_Click"/>
+        <Button x:Name="one" Content="1" Width="100" Height="100" Margin="42,509,0,159" FontSize="26.667" Click="one_Click"/>
+        <Button x:Name="two" Content="2" Width="100" Height="100" Margin="155,509,0,159" FontSize="26.667" Click="two_Click"/>
+        <Button x:Name="three" Content="3" Width="100" Height="100" Margin="271,509,0,159" FontSize="26.667" Click="three_Click"/>
+        <Button x:Name="four" Content="4" Width="100" Height="100" Margin="42,394,0,274" FontSize="26.667" Click="four_Click"/>
+        <Button x:Name="five" Content="5" Width="100" Height="100" Margin="155,394,0,274" FontSize="26.667" Click="five_Click"/>
+        <Button x:Name="six" Content="6" Width="100" Height="100" Margin="271,394,0,274" FontSize="26.667" Click="six_Click"/>
+        <Button x:Name="seven" Content="7" Width="100" Height="100" Margin="42,276,0,392" FontSize="26.667" Click="seven_Click"/>
+        <Button x:Name="eight" Content="8" Width="100" Height="100" Margin="155,276,0,392" FontSize="26.667" Click="eight_Click"/>
+        <Button x:Name="nine" Content="9" Width="100" Height="100" Margin="271,276,0,392" FontSize="26.667" Click="nine_Click"/>
+        <Button x:Name="point" Content="." Width="100" Height="100" Margin="155,627,0,41" FontSize="26.667" Click="point_Click"/>
+        <Button x:Name="plus" Content="+" Width="100" Height="100" Margin="383,509,0,159" FontSize="26.667" Click="plus_Click"/>
+        <Button x:Name="equals" Content="=" Width="100" Height="100" Margin="383,627,0,41" FontSize="26.667" Click="equals_Click"/>
+        <Button x:Name="divide" Content="/" Width="100" Height="100" Margin="383,160,0,508" FontSize="26.667" Click="divide_Click"/>
+        <Button x:Name="multiply" Content="*" Width="100" Height="100" Margin="383,276,0,392" FontSize="26.667" Click="multiply_Click"/>
+        <Button x:Name="minus" Content="-" Width="100" Height="100" Margin="383,394,0,274" FontSize="26.667" Click="minus_Click"/>
+        <Button x:Name="signchange" Content="+/-" Width="100" Height="100" Margin="271,627,0,41" FontSize="26.667" Click="signchange_Click"/>
+        <Button x:Name="clear" Content="C" Width="100" Height="100" Margin="271,160,0,508" FontSize="26.667" Click="clear_Click"/>
+        <Button x:Name="sqrt" Content="SQRT" Width="100" Height="100" Margin="155,160,0,508" FontSize="26.667" Click="sqrt_Click"/>
+        <Button x:Name="quit" Content="OFF" Width="100" Height="100" Margin="42,160,0,508" FontSize="26.667" Click="quit_Click"/>
+        <TextBlock x:Name="answers" Width="435" Height="100" HorizontalAlignment="Left" Margin="45,37,0,0" FontSize="26.667" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Padding="5" TextAlignment="Right"/>
     </Grid>
 </Page>
