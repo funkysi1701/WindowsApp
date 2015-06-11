@@ -1,17 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 using Windows.UI.ApplicationSettings;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -39,9 +28,7 @@ namespace FSiCalc
                     sf.Show();
                 });
             e.Request.ApplicationCommands.Add(generalCommand);
-            
 
-          
         }
 
         public void numberpad(int number)
@@ -52,7 +39,7 @@ namespace FSiCalc
         private void quit_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Exit();
-            
+
         }
 
         private void seven_Click(object sender, RoutedEventArgs e)
@@ -166,9 +153,10 @@ namespace FSiCalc
         private void sqrt_Click(object sender, RoutedEventArgs e)
         {
             point.IsEnabled = true;
-            //Calc.SquareRoot(answers.Text)
-            Calc.Result.Add(Convert.ToDouble(answers.Text));
-            answers.Text = Calc.ClearResult();
+
+            Calc.Result.Add(Calc.SquareRoot(Convert.ToDouble(answers.Text)));
+            answers.Text = Calc.ReturnResult();
+
         }
     }
 }
