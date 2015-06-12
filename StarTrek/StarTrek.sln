@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarTrekConsole", "StarTrekConsole\StarTrekConsole.csproj", "{185656A0-6E29-4FEB-B89F-A84071297DFD}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StarTrekData", "StarTrekData\StarTrekData.sqlproj", "{DABF70C1-D85D-447B-970B-E910B48CAB05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{185656A0-6E29-4FEB-B89F-A84071297DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{185656A0-6E29-4FEB-B89F-A84071297DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{185656A0-6E29-4FEB-B89F-A84071297DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
