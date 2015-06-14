@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarTrekConsole", "StarTrek
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StarTrekData", "StarTrekData\StarTrekData.sqlproj", "{DABF70C1-D85D-447B-970B-E910B48CAB05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarTrekDataLayer", "StarTrekDataLayer\StarTrekDataLayer.csproj", "{B3897495-819A-421D-A63F-98C7F05F5E9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DABF70C1-D85D-447B-970B-E910B48CAB05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B3897495-819A-421D-A63F-98C7F05F5E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3897495-819A-421D-A63F-98C7F05F5E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3897495-819A-421D-A63F-98C7F05F5E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3897495-819A-421D-A63F-98C7F05F5E9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

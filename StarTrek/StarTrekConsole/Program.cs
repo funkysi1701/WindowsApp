@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using StarTrek.DataLayer;
 
 namespace StarTrekConsole
 {
@@ -12,6 +13,13 @@ namespace StarTrekConsole
         static void Main(string[] args)
         {
             //read("C:\\Projects\\WindowsApp\\StarTrek\\enmemoryalpha_pages_current.xml");
+            List<MemoryAlpha> ArticlesFromDB = MemoryAlpha.GetAll();
+            MemoryAlpha firstArticle = ArticlesFromDB[10];
+
+            Console.WriteLine("The Total is " + firstArticle.Name);
+
+
+            Console.ReadKey();
         }
 
         public static void read(string filename)
