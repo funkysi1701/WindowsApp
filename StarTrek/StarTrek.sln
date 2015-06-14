@@ -9,6 +9,29 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StarTrekData", "StarTrekDat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarTrekDataLayer", "StarTrekDataLayer\StarTrekDataLayer.csproj", "{B3897495-819A-421D-A63F-98C7F05F5E9C}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StarTrek", "..\..\..\Users\Simon\Documents\Visual Studio 2015\WebSites\StarTrek\", "{24A8AB5B-BBB9-4E07-95CE-8BB0C790EDC7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{b3897495-819a-421d-a63f-98c7f05f5e9c}|StarTrekDataLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60143"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Users\Simon\Documents\Visual Studio 2015\WebSites\StarTrek\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60143\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60143"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Users\Simon\Documents\Visual Studio 2015\WebSites\StarTrek\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60143\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60143"
+		SlnRelativePath = "..\..\..\Users\Simon\Documents\Visual Studio 2015\WebSites\StarTrek\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +52,10 @@ Global
 		{B3897495-819A-421D-A63F-98C7F05F5E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3897495-819A-421D-A63F-98C7F05F5E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3897495-819A-421D-A63F-98C7F05F5E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A8AB5B-BBB9-4E07-95CE-8BB0C790EDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A8AB5B-BBB9-4E07-95CE-8BB0C790EDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A8AB5B-BBB9-4E07-95CE-8BB0C790EDC7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A8AB5B-BBB9-4E07-95CE-8BB0C790EDC7}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

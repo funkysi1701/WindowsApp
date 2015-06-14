@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using StarTrek.DataLayer;
 
+
 namespace StarTrekConsole
 {
     class Program
@@ -16,8 +17,9 @@ namespace StarTrekConsole
             List<MemoryAlpha> ArticlesFromDB = MemoryAlpha.GetAll();
             MemoryAlpha firstArticle = ArticlesFromDB[10];
 
-            Console.WriteLine("The Total is " + firstArticle.Name);
-
+            
+            Console.WriteLine(" " + firstArticle.Name);
+            Console.WriteLine("" + firstArticle.Content);
 
             Console.ReadKey();
         }

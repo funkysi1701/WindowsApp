@@ -16,6 +16,7 @@ namespace StarTrek.DataLayer
         public List<MemoryAlpha> Items { get; set; }
 
         public string Name { get; set; }
+        public string Content { get; set; }
 
         public static List<MemoryAlpha> GetAll()
         {
@@ -28,7 +29,7 @@ namespace StarTrek.DataLayer
                 MemoryAlpha currentMemoryAlpha = new MemoryAlpha();
                 
                 currentMemoryAlpha.Name = memoryAlphaRow.Title;
-
+                currentMemoryAlpha.Content = memoryAlphaRow.Text;
                 allItems.Add(currentMemoryAlpha);
 
 
